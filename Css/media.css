@@ -1,0 +1,817 @@
+@media (max-width: 1940px) {
+	.bike-wrap {
+        width: 100%;
+        height: auto;
+    }
+
+    .bike-wrap::after {
+        display: none;
+    }
+
+    .bike-wrap::before {
+        display: none;
+    }
+
+	.bike-wrap img {
+        width: 100%;
+        filter: drop-shadow(-24px -15px 35px #E4550D);
+        margin-bottom: 100px;
+    }
+}
+
+@media (max-width: 1920px) {
+    .bike-wrap {
+        width: 100%;
+        height: auto;
+    }
+
+    .bike-wrap::after {
+        display: none;
+    }
+
+    .bike-wrap::before {
+        display: none;
+    }
+}
+
+@media (max-width: 1740px) {
+    .bike-wrap {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 1680px) {
+    .bike-wrap {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .bike-wrap img {
+        width: 98%;
+        filter: drop-shadow(-24px -15px 35px #E4550D);
+        margin-bottom: 100px;
+    }
+}
+
+@media (max-width: 1450px) {
+    .promo::before {
+        left: 0;
+        font-size: 180px;
+    }
+
+    .bike-wrap {
+        width: 100%;
+        height: auto;
+    }
+
+    .bike-wrap::after {
+        display: none;
+    }
+
+    .bike-wrap::before {
+        display: none;
+    }
+
+    .video-wrap {
+        width: 90%;
+    }
+
+    .acrticle-wrap article {
+        margin: 50px 30px;
+        width: 100%;
+        height: auto;
+    }
+
+    .gifts-info {
+        justify-content: center;
+    }
+
+    .gifts-wrap {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .gifts-wrap h2 {
+        width: 100%;
+        height: auto;
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .gifts-wrap p {
+        padding-right: 0;
+        width: 60%;
+        margin-top: 50px;
+    }
+
+    .gifts-wrap h2::after {
+        left: 50%;
+        position: relative;
+        transform: translate(-50%);
+    }
+
+    .box-wrap {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .box-wrap img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1280px) {
+	.course-wrap input {
+		width: 100%;
+	}
+}
+
+
+@media (max-width: 1240px) {
+
+    /* Promo section */
+
+    .promo::before {
+        font-size: 10.5em;
+        transform: translate(-50%);
+        left: 50%;
+        letter-spacing: -10px;
+        display: none;
+    }
+
+    .image-wrap {
+        top: -50px;
+    }
+
+    /* Results section  */
+
+    .results .acrticle-wrap {
+        flex-wrap: wrap;
+    }
+
+    .results h2 {
+        width: 100%;
+    }
+
+    .results p {
+        width: 70%;
+    }
+
+    .results article {
+        margin: 0;
+        margin-top: 62px;
+        width: 25%;
+        height: auto;
+    }
+
+    .results article p {
+        width: 75%;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .results article img {
+        margin: 0 auto;
+    }
+
+    /* Approach section  */
+
+    .bike-wrap {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .bike-wrap::after,
+    .bike-wrap::before {
+        display: none;
+    }
+
+    .bike-wrap img {
+        width: 100%;
+    }
+
+    .app-wrap {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .app-inner-wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: start;
+        width: 100%;
+        height: 379px;
+        margin-left: 50px;
+    }
+
+    /* Form section  */
+
+    .form-wrap input {
+        width: 33%;
+    }
+
+    /* Section Large */
+
+    .large h2 {
+        width: 100%;
+        height: auto;
+    }
+
+    .harley-img-wrap {
+        width: 100%;
+        height: auto;
+    }
+
+    .harley-img-wrap img {
+        display: block;
+        width: 100%;
+    }
+
+    .video-wrap {
+        width: 80%;
+    }
+
+    /* Gifts section  */
+
+    .gifts-info {
+        justify-content: center;
+    }
+
+    .gifts-wrap {
+        align-items: center;
+    }
+
+    .gifts-wrap h2 {
+        text-align: center;
+        width: 60%;
+        height: auto;
+        margin: 0 auto;
+        margin-top: 100px;
+        position: relative;
+    }
+
+    .gifts-wrap h2::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .gifts p {
+        padding-right: 0;
+        text-align: center;
+        width: 60%;
+    }
+
+    .box-wrap {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+
+    }
+
+    .box-wrap img {
+        width: 100%;
+    }
+
+    /* Course section  */
+
+    .course-wrap input {
+        width: 80%;
+        height: auto;
+    }
+
+}
+
+@media (max-width: 991px) {
+
+    /* Approach section  */
+
+    .results h2 {
+        width: 75%;
+        text-align: center;
+    }
+
+    .app-inner-wrap h2::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .app-inner-wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: start;
+        width: 75%;
+        height: 379px;
+        margin-left: 0px;
+    }
+
+
+    .app-wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bike-wrap {
+        width: 85%;
+        height: auto;
+    }
+
+    .bike-wrap img {
+        width: 65%;
+    }
+
+    /* Form Section */
+
+    .contact-wrap input {
+        width: 33%;
+    }
+
+    /* Large Section */
+    .harley-img-wrap::before {
+        width: 50%;
+        top: 15%;
+        left: 27%;
+    }
+
+    .video-wrap {
+        width: 80%;
+        height: 500px;
+        margin-bottom: 100px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 855px) {
+    .results p {
+        margin-top: 100px;
+    }
+
+    .harley-img-wrap::before {
+		width: 50%;
+		height: 50%;
+        top: 25%;
+        left: 27%;
+		
+	}
+}
+
+@media (max-width: 768px) {
+    .promo h1 {
+        font-size: 48px;
+    }
+
+    .promo h2 {
+        font-size: 36px;
+    }
+
+    .btn-1,
+    .btn-2 {
+        font-size: 12px;
+        padding: 18px 32px;
+    }
+
+
+    .promo::before {
+        display: none;
+    }
+
+    .image-wrap {
+        top: 0px;
+        margin-left: 0;
+    }
+
+    .image-wrap::before {
+        background: linear-gradient(180deg, rgba(32, 32, 32, 0.00) 0%, #2020208a 100%);
+    }
+
+    .image-wrap img {
+        max-width: 100%;
+    }
+
+    /* Results section  */
+
+    .results p {
+        margin-top: 100px;
+    }
+
+    .results article {
+        width: 50%;
+    }
+
+    .results article img {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .results article p {
+        width: 50%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    /* Approach section  */
+
+    .app-inner-wrap {
+        height: auto;
+        width: 75%;
+    }
+
+    .app-inner-wrap h2 {
+        margin-top: 50px;
+    }
+
+    .app-inner-wrap p {
+        margin-top: 100px;
+        width: 100%;
+    }
+
+    /* Form Section */
+
+    .form-wrap h2::after {
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .contact-wrap input {
+        width: 150px;
+    }
+
+    /* Large Section */
+    .harley-img-wrap::before {
+        width: 50%;
+        top: 15%;
+        left: 27%;
+        height: 73%;
+    }
+
+    .harley-wrap h2::after {
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .studing h2::after {
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .harley-wrap p {
+        width: 50%;
+    }
+
+    .video-wrap {
+        width: 80%;
+        height: 300px;
+        margin-bottom: 100px;
+    }
+
+    /* Gifts Section */
+
+    .gifts-info {
+        flex-direction: column;
+    }
+
+    .gifts-wrap h2::after {
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    /* Course section  */
+
+    .course-wrap h2::after {
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .course-wrap p {
+        width: 80%;
+    }
+}
+
+@media (min-width: 523px) and (max-width: 750px) {
+    .app-inner-wrap {
+        width: 80%;
+        align-items: center;
+    }
+
+    .app-inner-wrap h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .app-inner-wrap p {
+        margin-top: 200px;
+        width: 90%;
+    }
+
+    .results p {
+        margin-top: 150px;
+    }
+
+    .form-wrap p {
+        margin-top: 50px;
+    }
+}
+
+@media (min-width: 521px) and (max-width: 580px) {
+    .form-wrap p {
+        width: 100%;
+    }
+
+    .contact-wrap form {
+        gap: 15px;
+    }
+}
+
+@media (max-width: 520px) {
+    nav {
+        flex-direction: column;
+        margin-bottom: 200px;
+    }
+
+    nav a img {
+        display: block;
+        width: 100%;
+    }
+
+    .promo::before {
+        display: none;
+    }
+
+    .promo h1 {
+        font-size: 32px;
+        margin-top: 20px;
+    }
+
+    .promo h2 {
+        font-size: 20px;
+    }
+
+    .promo span {
+        font-size: 24px;
+    }
+
+    .promo p {
+        font-size: 14px;
+        width: 100%;
+        height: auto;
+    }
+
+    .image-wrap::before {
+        display: none;
+    }
+
+    .image-wrap {
+        margin-left: 0;
+    }
+
+    .image-wrap img {
+        max-width: 100%;
+    }
+
+    .promo::before {
+        font-size: 5em;
+    }
+
+    .btn-1,
+    .btn-2 {
+        font-size: 12px;
+        padding: 12px 24px;
+    }
+
+    /* Results section  */
+
+    .results p {
+        margin-top: 150px;
+    }
+
+    /* Approach section  */
+
+    .app-inner-wrap h2 {
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .app-inner-wrap p {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .bike-wrap {
+        width: 85%;
+        height: auto;
+    }
+
+    .bike-wrap img {
+        width: 100%;
+    }
+
+    /* Form Section */
+    .form-wrap h2 {
+        width: 85%;
+        height: auto;
+    }
+
+    .form-wrap h2::after {
+        transform: translateX(-50%);
+    }
+
+    .form-wrap p {
+        width: 100%;
+    }
+
+    .contact-wrap form {
+        flex-direction: column;
+    }
+
+    .contact-wrap input {
+        width: 250px;
+    }
+
+    /* Course section  */
+
+    .course-wrap input {
+        width: 60%;
+    }
+}
+
+@media (max-width: 500px) {
+
+
+    .promo p {
+        font-size: 14px;
+        width: 80%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .btn-1,
+    .btn-2 {
+        font-size: 12px;
+        padding: 14px 20px;
+    }
+
+
+    /* Results section  */
+
+    .results h2 {
+        font-size: 20px;
+        width: 70%;
+    }
+
+    .results h2::after {
+        width: 50px;
+        height: 2px;
+    }
+
+    .results p {
+        margin-top: 30px;
+        width: 70%;
+        font-size: 16px;
+    }
+
+
+    .results article {
+        width: 100%;
+    }
+
+    .form-wrap h2 {
+        font-size: 22px;
+    }
+
+    .harley-wrap h2 {
+        font-size: 22px;
+    }
+
+    .studing h2 {
+        font-size: 22px;
+    }
+
+    .gifts-wrap h2 {
+        font-size: 28px;
+    }
+
+    .course-wrap h2 {
+        font-size: 28px;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 430px) {
+    /* Approach section  */
+
+    .app-inner-wrap p {
+        margin-top: 90px;
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 390px) {
+    header {
+        height: 100vh;
+    }
+
+    .container h2::after {
+        width: 80px;
+        height: 4px;
+    }
+
+    nav {
+        height: auto;
+        margin-bottom: 50px;
+    }
+
+    .promo {
+        margin-top: 50px;
+    }
+
+    nav a img {
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .btn-1,
+    .btn-2 {
+        font-size: 11px;
+        padding: 12px 18px;
+    }
+
+    /* Approach section  */
+
+    .app-inner-wrap p {
+        margin-top: 70px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 375px) {
+    header {
+        height: auto;
+    }
+
+    .btn-wrap button {
+        padding: 10px;
+    }
+
+    /* Gifts section  */
+
+    .gifts-wrap h2 {
+        font-size: 32px;
+    }
+
+    .btn-form {
+        padding: 16px 20px;
+    }
+
+    .btn-gifts {
+        padding: 16px 20px;
+    }
+
+    .btn-course {
+        padding: 16px 20px;
+    }
+
+    .course-wrap p {
+        height: auto;
+    }
+
+    .results p {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 320px) {
+    .promo h1 {
+        font-size: 28px;
+        line-height: 30px;
+    }
+
+    .btn-wrap {
+        gap: 15px;
+    }
+
+    .btn-1,
+    .btn-2 {
+        font-size: 10px;
+        padding: 10px 14px;
+    }
+
+    .results p {
+        margin-top: 30px;
+        width: 70%;
+        font-size: 16px;
+    }
+
+    .results article>p {
+        font-size: 12px;
+    }
+}
